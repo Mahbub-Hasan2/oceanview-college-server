@@ -7,7 +7,8 @@ const collegeSchema = new mongoose.Schema({
     admissionDates: Object,
     events: Array,
     researchHistory: String,
-    sports: Array,
+    sports: Array, 
+    eventsDetails: Array,
     numberOfResearches: Number,
 });
 
